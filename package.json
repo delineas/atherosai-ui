@@ -7,6 +7,9 @@
     "build:react-examples": "cd react-examples && npm i && npm run build",
     "compress:imgs": "npx compress-images-with-sharp 80 ./ original"
   },
+  "dependencies": {
+    "live-server": "*"
+  },
   "devDependencies": {
     "fast-glob": "^3.3.2"
   }
